@@ -1,0 +1,6 @@
+<title>Blog Post</title>
+{% for blog in blogs%}
+<h2> {{blog.title}}</h2>
+<p> {{blog.title}}</p>
+<i> {{blog.created}}</i>
+{% endfor %}
